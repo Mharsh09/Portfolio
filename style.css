@@ -280,3 +280,55 @@ section {
   article .icon {
     cursor: default;
   }
+
+  /*contact*/
+  #contact{
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    
+  }
+
+  .contact-container{
+    border-radius: 2rem;
+    border: black 0.1rem solid;
+    border-color: black;
+    background: white;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    align-items: center;
+    display: flex;
+  }
+
+  .details-contact-container{
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+    align-items: center;
+  }
+
+  ;.details-contact-container{
+    font-size: larger;
+  }
+
+  .icon-contact {
+    width: 60px; 
+    height: auto; 
+  }
+
+  .icon-contact-email-icon{
+    width: 75px; 
+    height: auto;
+  }
+
+/* footer */
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  
